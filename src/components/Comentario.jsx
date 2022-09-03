@@ -1,10 +1,11 @@
 import React from 'react'
+import Imagen from './Imagen'
 
 const Comentario = (props) => {
 
   return (
     <div className='media'>
-        <img src= {props.urlImagen}alt="imagen aleatoria" className='mr-3'/>
+        <Imagen urlImagen={props.urlImagen}></Imagen>
         <div className="media-body">
             <h5 className='mt-0'>{props.persona}</h5>
             {props.texto}
