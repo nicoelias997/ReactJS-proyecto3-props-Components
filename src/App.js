@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="container mt-5">
     <h1>Proyecto desde cero.</h1>
-    <Saludo persona="Ignacio"></Saludo>
-    <Saludo persona="Juanito"></Saludo>
-    <Saludo persona="Pedrito"></Saludo>
+    <Saludo persona="Ignacio"edad={25}></Saludo>
+    <Saludo persona="Juanito"edad={20}></Saludo>
+    <Saludo persona="Pedrito" edad={30}></Saludo>
 
     </div>
   );
