@@ -1,5 +1,6 @@
 import React from "react";
 import Saludo from "./components/Saludo";
+import Comentario from "./components/Comentario";
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
     <Saludo persona="Ignacio"edad={25}></Saludo>
     <Saludo persona="Juanito"edad={20}></Saludo>
     <Saludo persona="Pedrito" edad={30}></Saludo>
+    <hr></hr>
+    <h3>Cajita de comentarios</h3>
+    <Comentario></Comentario>
 
     </div>
   );
