@@ -1,12 +1,13 @@
 import React from 'react'
 
-const Comentario = () => {
+const Comentario = (props) => {
+
   return (
     <div className='media'>
-        <img src="https://picsum.photos/200" alt="imagen aleatoria" className='mr-3'/>
+        <img src= {props.urlImagen}alt="imagen aleatoria" className='mr-3'/>
         <div className="media-body">
-            <h5 className='mt-0'>Nombre persona</h5>
-            comentario jadsnasn
+            <h5 className='mt-0'>{props.persona}</h5>
+            {props.texto}
         </div>
     </div>
   )
